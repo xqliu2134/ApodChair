@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/bizIconLayout"
+            android:layout_width="142dip"
+            android:layout_height="89dip"
+            android:background="@drawable/biz_kuan_bg" >
+
+            <ImageView
+                android:id="@+id/imgPduIcon"
+                android:layout_width="138dip"
+                android:layout_height="89dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_grid_bg" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/imgBtn"
+            android:layout_width="142dip"
+            android:layout_height="89dip"
+            android:background="@drawable/biz_grid_bg" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtPduTitle"
+        android:layout_width="130dip"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+</LinearLayout>

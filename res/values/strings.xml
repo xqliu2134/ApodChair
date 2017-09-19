@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">ApodChair</string>
+    <string name="browse_title">www.psbc.com</string>
+    <string name="network_title">Network</string>
+    <string name="device_title">Device</string>
+    <string name="defalut_checkin">UnRegistered Device</string>
+    <string name="defalut_mac">Unknown Mac</string>
+    <string name="device_name">Device Name</string>
+    <string name="mac_title">Mac Address</string>
+    <string name="network_hit_msg">please select network</string>
+    <string name="device_hit_msg">please select device</string>
+    <string name="phone_title">95580</string>
+    <string name="default_time">"12:30"</string>
+    <string name="default_date">"2016-12-05"</string>
+    <string name="btn_reigster_title">Register</string>
+    <string name="btn_comfirm_title">OK</string>
+    <string name="register_title">"Register Device"</string>
+    <string name="smset_title">"Host Info"</string>
+    <string name="fk_title">"Custom feedback info"</string>
+    <string name="info_ipaddress">"IP Address"</string>
+    <string name="info_ipcode">"IP Code"</string>
+    <string name="info_username">"User Name"</string>
+    <string name="info_password">"Password"</string>
+    <string name="info_database">"Database Name"</string>
+    <string name="info_host">"Server"</string>
+    <string name="info_game1">"game1"</string>
+    <string name="info_game2">"game2"</string>
+    <string name="info_name">"Name"</string>
+    <string name="info_sex">"Sex"</string>
+    <string name="info_phone">"Phone"</string>
+    <string name="info_fkcontent">"Content"</string>
+    <string name="info_fkoption">"Option"</string>
+    <string name="feedbackformat" translatable="false"><xliff:g id="format">%1$02d-%2$02d-%3$02d %4$0d:%5$02d</xliff:g></string>
+    <string name="timeformat" translatable="false"><xliff:g id="format">%1$02d:%2$02d</xliff:g></string>
+    <string name="dateformat" translatable="false"><xliff:g id="format">%1$02d:%2$02d:%3$02d</xliff:g></string>
+    <string name="hujiao_success">"calling to manager，please wait！"</string>
+    <string name="hujiao_fail">"call failed！"</string>
+    <string name="page_up">"Previous"</string>
+    <string name="page_next">"Next"</string>
+    <string name="loading_word_msg">"Loading"</string>
+    <string name="loading_fail">"Nof found file!"</string>
+    <string name="back_up">"Back Up"</string>
+    <string name="back_sou">"Back Home"</string>
+    <string name="sms_commit_msg">"host config set success!"</string>
+    <string name="feedback_commit_success">"feedback info is already commited ,thank you for your support!"</string>
+    <string name="feedback_commit_fail">"temporarily unable to submit，thank you for your support!"</string>
+    <string name="loading_msg">"Loading&#8230;"</string>
+    <string name="load_fair_msg">"Load Failed!"</string>
+    <string name="send_sms_msg">"please connected wifi!"</string>
+    <string name="password_failer_msg">"passwrod error,please enter again!"</string>
+    <string name="btn_confirn_title">OK</string>
+
+</resources>

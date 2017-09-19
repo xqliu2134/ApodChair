@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_info_text_color">#464655</color>
+    <color name="text_foucs">#e9b605</color>
+    <color name="white">#FFFFFF</color>
+    <color name="biz_color">#0e5f06</color>
+    <color name="item_color">#73d2ab</color>
+    <color name="circle_color1">#ffa500</color>
+    <color name="circle_color2">#59d612</color>
+    <color name="circle_color3">#08f0f6</color>
+
+</resources>

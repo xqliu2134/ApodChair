@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grid_info_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_title"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/network_title"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spinnerNetwork"
+            android:layout_width="400dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:prompt="@string/network_hit_msg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/device_title"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spinnerDevice"
+            android:layout_width="400dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:prompt="@string/device_hit_msg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/mac_title"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtMacAddress"
+            android:layout_width="400dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:gravity="left|center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCommit"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/btn_reigster_title"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+</LinearLayout>

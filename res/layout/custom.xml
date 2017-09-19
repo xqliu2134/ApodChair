@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/grid_info_bg"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fk_title"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/sms_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/sms_textview_layout_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/info_name"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:layout_width="@dimen/sms_editview_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sms_rightlayout_margin_left"
+                    android:gravity="center_vertical|left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/sms_textview_right_layout_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/info_sex"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerSex"
+                    android:layout_width="@dimen/sms_editview_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sms_rightlayout_margin_left" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/sms_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="left|center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/sms_textview_layout_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/info_phone"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/editPhone"
+                    android:layout_width="@dimen/sms_editview_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sms_rightlayout_margin_left"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/sms_textview_right_layout_width"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/info_fkoption"
+                    android:textColor="@android:color/black"
+                    android:textSize="22sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerOption"
+                    android:layout_width="@dimen/sms_editview_layout_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sms_rightlayout_margin_left" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/sms_layout_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="left|top"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dip"
+                android:text="@string/info_fkcontent"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/editContent"
+                android:layout_width="620dip"
+                android:layout_height="200dip"
+                android:layout_marginLeft="@dimen/sms_rightlayout_margin_left"
+                android:gravity="left|top" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCommit"
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+            android:text="@string/btn_confirn_title"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnHujiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/btn_hujiao_bg" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/btn_back_bg" />
+
+</RelativeLayout>
